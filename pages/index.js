@@ -1,6 +1,14 @@
+import Layout from "@/components/Layout";
+
 function Dashboard () {
-  return <div>
-    <h1>This is the Home Dashboard</h1>
-  </div>
+  return (
+    <Layout>
+      <div>
+        <h1>Welcome to YTSavvy!</h1>
+        <p>App under development.</p>
+      </div>
+    </Layout>
+  
+  );
 }
 export default Dashboard;
